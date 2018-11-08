@@ -4,3 +4,5 @@ export DEFAULT_USER=`whoami`
 
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
+# Add GO apps binaries to the path
+export PATH=$PATH:~/go/bin
