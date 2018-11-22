@@ -3,7 +3,7 @@ source $DOTFILES_PATH/powerlevel9k_icons_fix.zsh
 
 # PROMPT
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon context ssh_joined dir dir_writable virtualenv)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status background_jobs_joined vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status background_jobs_joined vcs time)
 
 # DIR
 POWERLEVEL9K_DIR_PATH_SEPARATOR="%F{235} $(print_icon 'LEFT_SUBSEGMENT_SEPARATOR') %F{black}"
