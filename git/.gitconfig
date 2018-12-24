@@ -1,11 +1,11 @@
 [user]
-	name = NoxWings
-	email = noxwings@gmail.com
+	name = Adrián Cuesta
+	email = adriancuestariejos@gmail.com
 [color]
 	status = auto
 	branch = auto
 [core]
-	excludesfile = ~/.noxwings/git/.gitignore
+	excludesfile = ~/.adricu/git/.gitignore
 [push]
         default = current
 [alias]
