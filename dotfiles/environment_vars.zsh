@@ -1,4 +1,5 @@
 export PIPENV_VENV_IN_PROJECT=1
+export PIPENV_DONT_LOAD_ENV=1
 export TERM="xterm-256color"
 export DEFAULT_USER=`whoami`
 
