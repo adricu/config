@@ -5,7 +5,7 @@ brew install thefuck yarn jq node kubernetes-cli kubernetes-helm
 brew install pyenv pipenv
 export LDFLAGS="-L/usr/local/opt/zlib/lib"
 export CPPFLAGS="-I/usr/local/opt/zlib/include"
-pyenv install 3.6.7
+pyenv install 3.6.8
 
 # ZSH & others
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -19,4 +19,4 @@ brew cask install font-hack-nerd-font
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 # Link .zshrc
-ln -s ~/.adricu/dotfiles/zshrc .zshrc
+ln -s ~/.adricu/dotfiles/zshrc ~/.zshrc
