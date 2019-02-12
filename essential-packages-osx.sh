@@ -1,5 +1,9 @@
 # Brew Packages
 brew install thefuck yarn jq node kubernetes-cli kubernetes-helm
+brew cask install iterm2
+brew cask install tunnelblick
+brew cask install java
+brew cask install postman
 
 # Install python tools
 brew install pyenv pipenv
@@ -20,3 +24,5 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 # Link .zshrc
 ln -s ~/.adricu/dotfiles/zshrc ~/.zshrc
+ln -s ~/.adricu/git/.gitconfig ~/.gitconfig
+
