@@ -1,5 +1,6 @@
 # Brew Packages
-brew install thefuck yarn jq node kubernetes-cli kubernetes-helm
+brew install zlib thefuck yarn jq node kubernetes-cli kubernetes-helm
+brew cask install visual-studio-code
 brew cask install iterm2
 brew cask install tunnelblick
 brew cask install java
@@ -23,6 +24,9 @@ brew cask install font-hack-nerd-font
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 # Link .zshrc
+mv ~/.zshrc ~/zshrc.old
 ln -s ~/.adricu/dotfiles/zshrc ~/.zshrc
 ln -s ~/.adricu/git/.gitconfig ~/.gitconfig
 
+# AWS
+cp -r ~/.adricu/dotfiles/aws ~/.aws

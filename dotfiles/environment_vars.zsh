@@ -7,3 +7,7 @@ export DEFAULT_USER=`whoami`
 export ZSH=~/.oh-my-zsh
 # Add GO apps binaries to the path
 export PATH=$PATH:~/app-binaries
+
+# Zlib staff
+export LDFLAGS="-L/usr/local/opt/zlib/lib"
+export CPPFLAGS="-I/usr/local/opt/zlib/include"
