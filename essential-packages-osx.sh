@@ -30,3 +30,4 @@ ln -s ~/.adricu/git/.gitconfig ~/.gitconfig
 
 # AWS
 cp -r ~/.adricu/dotfiles/aws ~/.aws
+cp -r ~/.adricu/dotfiles/ssh ~/.ssh
