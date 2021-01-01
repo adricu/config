@@ -48,3 +48,6 @@ if [ -f '/Users/adricu/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/adricu/g
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/adricu/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/adricu/google-cloud-sdk/completion.zsh.inc'; fi
+
+export PATH="/usr/local/Cellar/node@10/10.22.0/bin:/Users/adricu/dev/flutter/bin:$PATH"
+
